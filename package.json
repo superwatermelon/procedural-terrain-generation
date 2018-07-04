@@ -1,7 +1,7 @@
 {
   "name": "terrain-generation",
   "version": "0.1.0",
-  "description": "Terrain generation demo",
+  "description": "Source code for the Procedural Terrain Generation blog series",
   "main": "lib/index.js",
   "config": {
     "port": 3000,
@@ -18,20 +18,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stuartwakefield/terrain-generation.git"
+    "url": "git+https://github.com/superwatermelon/procedural-terrain-generation.git"
   },
   "keywords": [
     "terrain-generation"
   ],
-  "author": "Stuart Wakefield <me@stuartwakefield.co.uk>",
+  "author": "Stuart Wakefield <stuart@superwatermelon.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stuartwakefield/terrain-generation/issues"
+    "url": "https://github.com/superwatermelon/procedural-terrain-generation/issues"
   },
-  "homepage": "https://github.com/stuartwakefield/terrain-generation#readme",
+  "homepage": "https://github.com/superwatermelon/procedural-terrain-generation#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "chai": "^4.1.2",
@@ -41,7 +42,6 @@
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
-    "babel-loader": "^7.1.4",
     "express": "^4.16.3",
     "highlight.js": "^9.12.0",
     "marked": "^0.4.0",
