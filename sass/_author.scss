@@ -1,0 +1,24 @@
+.author {
+  font-size: 0.75em;
+  max-width: 30em;
+  margin: 0 auto 4em;
+  text-align: center;
+  padding: 2em;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.author img {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+}
+
+.author h3 {
+  font: 1.5em / 1.5 "Roboto Slab", serif;
+  margin-bottom: 0;
+}
+.author h5 {
+  font: 1em / 1.5 "Roboto Slab", serif;
+  margin-top: 0;
+}

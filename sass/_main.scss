@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 3vw / 1.5em "Roboto", sans-serif;
+  color: #222;
+  margin: 0;
+}
+
+h1 {
+  font: 2.5em / 1.5 "Roboto Slab", serif;
+  text-align: center;
+}
+
+h2 {
+  font: 1.5em / 1.5 "Roboto Slab", serif;
+  text-align: center;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #39d;
+  position: relative;
+  padding: 0.25em 0;
+  transition: 0.2s linear color;
+}
+
+a:hover, a:focus {
+  color: #f46;
+}
+
+a::before {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid #39d;
+  transform: scale(0, 1);
+  transition: 0.2s ease-in-out transform, 0.2s linear border-color;
+}
+
+a:hover::before, a:focus::before {
+  transform: scale(1, 1);
+  border-bottom-color: #f46;
+}
+
+canvas {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+code {
+  padding: 0.5em;
+  background: #eee;
+  border-radius: 3px;
+}
+
+pre {
+  font-size: 0.75em;
+  padding: 2em;
+  background: #eee;
+  color: #666;
+  border-radius: 3px;
+  overflow-x: auto;
+}
+
+pre > code {
+  padding: 0;
+  background: transparent;
+}
+
+figure {
+  margin: 0;
+  padding: 0.5em 2em;
+  border-left: 1em solid #eee;
+  font-size: 0.75em;
+  font-style: italic;
+  color: #999;
+  border-radius: 3px;
+  background: #f8f8f8;
+}
+
+figure strong {
+  color: #000;
+}
+
+@media screen and (min-width: 540px) {
+  body {
+    font: 1.25em / 1.5em "Roboto", sans-serif;
+  }
+}

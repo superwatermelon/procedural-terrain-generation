@@ -1,0 +1,48 @@
+.series-nav {
+  width: 10em;
+  margin: 0 auto;
+  padding: 0 0 2em;
+  overflow: hidden;
+}
+
+.series-nav a {
+  display: block;
+  width: 3em;
+  height: 3em;
+  overflow: hidden;
+  text-indent: -999px;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(17,51,85,0.25);
+  margin: 1em;
+  z-index: 999;
+}
+
+.series-nav a:hover::before, .series-nav a:focus::before {
+  display: none;
+}
+
+.series-nav [rel=next] {
+  float: right;
+  background: #fff url('/img/right-arrow.svg') center center no-repeat;
+}
+
+.series-nav [rel=prev] {
+  float: left;
+  background: #fff url('/img/left-arrow.svg') center center no-repeat;
+}
+
+@media screen and (min-width: 840px) {
+  .series-nav [rel=next] {
+    position: fixed;
+    top: 50%;
+    margin-top: -1.5em;
+    right: 0;
+  }
+
+  .series-nav [rel=prev] {
+    position: fixed;
+    top: 50%;
+    margin-top: -1.5em;
+    left: 0;
+  }
+}

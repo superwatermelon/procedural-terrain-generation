@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{subtitle}} | {{title}} | Superwatermelon Blog</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-initial, initial-scale=1.0, viewport-fit=contain"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab:700" rel="stylesheet"/>
+        <link href="/css/index.css" rel="stylesheet"/>
+        <link href="/img/icon.png" rel="icon"/>
+        <link href="/img/icon.png" rel="apple-touch-icon"/>
+        <link href="{{canonical}}" rel="canonical"/>
+        <meta name="title" content="{{title}} - {{subtitle}}"/>
+        <meta name="description" content="{{description}}"/>
+        <meta name="robots" content="index, follow"/>
+        <meta property="og:title" content="{{title}} - {{subtitle}}"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:img" content="{{cover}}"/>
+        <meta property="og:url" content="{{canonical}}"/>
+    </head>
+    <body>
+        <article>
+            <header>
+                <nav>
+                    <a class="skip" href="#content">Skip to content</a>
+                    <a class="logo" href="https://superwatermelon.com">Superwatermelon</a>
+                </nav>
+                <div id="hero"></div>
+                <div class="header-content">
+                    <div>
+                        <h1>{{title}}</h1>
+                        <h2>{{subtitle}}</h2>
+                    </div>
+                </div>
+            </header>
+            <div class="content" id="content">
+                {{{content}}}
+            </div>
+            <footer>
+                <nav class="series-nav">
+                    {{#prev}}
+                        <a href="{{prev}}" rel="prev">Prev</a>
+                    {{/prev}}
+                    {{#next}}
+                        <a href="{{next}}" rel="next">Next</a>
+                    {{/next}}
+                </nav>
+                <div class="author">
+                    <img src="https://superwatermelon.com/img/team/sw.jpg" alt="Stuart Wakefield"/>
+                    <h3>Stuart Wakefield</h3>
+                    <h5>Director</h5>
+                    {{{bio}}}
+                </div>
+            </footer>
+        </article>
+        <script src="/js/index.js"></script>
+    </body>
+</html>

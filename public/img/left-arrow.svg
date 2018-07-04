@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .a {
+        fill: #f46;
+      }
+    </style>
+  </defs>
+  <title>left-arrow</title>
+  <g>
+    <rect class="a" x="291.42" y="370.59" width="360" height="80" rx="10" ry="10" transform="translate(-152.25 453.6) rotate(-45)"/>
+    <rect class="a" x="291.42" y="568.58" width="360" height="80" rx="10" ry="10" transform="translate(374.44 1372.25) rotate(-135)"/>
+  </g>
+</svg>

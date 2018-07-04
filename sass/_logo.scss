@@ -1,0 +1,15 @@
+.logo {
+  display: block;
+  width: 3em;
+  height: 3em;
+  overflow: hidden;
+  text-indent: -999px;
+  background: url('https://superwatermelon.com/img/logo.svg') center center no-repeat;
+  margin: 1em;
+  z-index: 1;
+  position: relative;
+}
+
+.logo:hover::before, .logo:focus::before {
+  display: none;
+}

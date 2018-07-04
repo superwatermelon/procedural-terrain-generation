@@ -1,0 +1,54 @@
+{
+  "name": "terrain-generation",
+  "version": "0.1.0",
+  "description": "Terrain generation demo",
+  "main": "lib/index.js",
+  "config": {
+    "port": 3000
+  },
+  "scripts": {
+    "sass": "node-sass --output out/css sass",
+    "sass:watch": "node-sass --watch --output out/css sass",
+    "start": "babel-node server.js",
+    "test": "mocha --require babel-core/register",
+    "test:watch": "mocha --watch --require babel-core/register",
+    "webpack": "webpack",
+    "webpack:watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuartwakefield/terrain-generation.git"
+  },
+  "keywords": [
+    "terrain-generation"
+  ],
+  "author": "Stuart Wakefield <me@stuartwakefield.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stuartwakefield/terrain-generation/issues"
+  },
+  "homepage": "https://github.com/stuartwakefield/terrain-generation#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "node-sass": "^4.9.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "express": "^4.16.3",
+    "highlight.js": "^9.12.0",
+    "marked": "^0.4.0",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  }
+}

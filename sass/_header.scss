@@ -1,0 +1,67 @@
+header {
+  min-height: 100vh;
+  background: #135;
+  color: #fff;
+  border-bottom: 2em solid #fff;
+  position: relative;
+}
+
+header h1 {
+  max-width: 15em;
+  margin: 0 auto;
+  padding: 0.75em 0.75em 0;
+  text-shadow: 0 2px 5px #013;
+}
+
+header h2 {
+  text-shadow: 0 2px 5px #013;
+}
+
+
+header nav {
+  overflow: hidden;
+}
+
+header > .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5em;
+  background: linear-gradient(rgba(0,17,51,0), rgba(0,17,51,0.5));
+  z-index: 1;
+}
+
+header > #hero {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+header > #hero > canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: scale(1.5, 1.5);
+  height: 100vh;
+  width: 177vh;
+  margin-left: -88.5vh;
+  max-width: none;
+}
