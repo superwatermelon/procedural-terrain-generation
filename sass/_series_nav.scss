@@ -23,12 +23,12 @@
 
 .series-nav [rel=next] {
   float: right;
-  background: #fff url('/img/right-arrow.svg') center center no-repeat;
+  background: #fff url('../img/right-arrow.svg') center center no-repeat;
 }
 
 .series-nav [rel=prev] {
   float: left;
-  background: #fff url('/img/left-arrow.svg') center center no-repeat;
+  background: #fff url('../img/left-arrow.svg') center center no-repeat;
 }
 
 @media screen and (min-width: 840px) {

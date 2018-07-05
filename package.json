@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "config": {
     "port": 3000,
-    "baseUrl": "http://localhost:3000"
+    "baseUrl": "",
+    "staticUrl": ""
   },
   "scripts": {
     "sass": "node-sass --output out/css sass",
@@ -14,7 +15,9 @@
     "test": "mocha --require babel-core/register",
     "test:watch": "mocha --watch --require babel-core/register",
     "webpack": "webpack",
-    "webpack:watch": "webpack --watch"
+    "webpack:watch": "webpack --watch",
+    "prepublish": "npm run compile",
+    "compile": "babel lib --out-dir out/app/lib && babel server.js --out-file out/app/server.js && npm run sass && npm run webpack"
   },
   "repository": {
     "type": "git",

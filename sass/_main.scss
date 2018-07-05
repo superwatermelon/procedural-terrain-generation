@@ -94,6 +94,38 @@ figure strong {
   color: #000;
 }
 
+label {
+  font: 0.75em / 1.5 "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+button {
+  font: 0.75em / 1.5 "Roboto", sans-serif;
+  background: #f46;
+  color: #fff;
+  border: 0;
+  box-shadow: 0 5px 10px rgba(17,51,85,0.25);
+  padding: 1em 2em;
+  border-radius: 2em;
+  cursor: pointer;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+input[type=range] {
+  padding: 1em;
+  height: 3.5em;
+  vertical-align: middle;
+}
+
+form {
+  margin: 1em 0;
+}
+
+ol {
+  padding-left: 2em;
+}
+
 @media screen and (min-width: 540px) {
   body {
     font: 1.25em / 1.5em "Roboto", sans-serif;

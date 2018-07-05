@@ -24,7 +24,7 @@ map.
     </p>
 </figure>
 
-The map area we are trying to build consists of three major areas. 
+The map area we are trying to build consists of three major areas.
 
 ### 1. The visible area
 
@@ -53,4 +53,4 @@ the three.
 In the next post we will be looking at how we can place our key landmarks in random locations while
 maintaining the correct game flow.
 
-Next: [Part 2. Landmark Placement](/landmark-placement)
+Next: [Part 2. Landmark Placement](https://blog.superwatermelon.com/procedural-terrain-generation/landmark-placement)

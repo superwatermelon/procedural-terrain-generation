@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+    mode: 'development',
     entry: './lib/client',
     output: {
         path: path.resolve(__dirname, 'out', 'js'),
