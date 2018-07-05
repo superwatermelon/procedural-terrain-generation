@@ -8,12 +8,14 @@ default: dist
 
 .PHONY: dist
 dist: $(dist)
-	npm install
 	mkdir -p build/$(name)
 	cp -R $(dist) build/$(name)/
 	mkdir -p build/$(name)/out
 	cp -R $(dist_static) build/$(name)/out/
 	tar -C build/$(name) -czvf build/$(name).tar.gz .
+
+$(dist):
+	npm install
 
 .PHONY: clean
 clean:
