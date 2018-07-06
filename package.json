@@ -5,8 +5,7 @@
   "main": "lib/index.js",
   "config": {
     "port": 3000,
-    "baseUrl": "",
-    "staticUrl": ""
+    "sslOnly": false
   },
   "scripts": {
     "sass": "node-sass --output out/css sass",
@@ -46,8 +45,11 @@
   },
   "dependencies": {
     "express": "^4.16.3",
+    "express-enforces-ssl": "^1.1.0",
     "highlight.js": "^9.12.0",
+    "hsts": "^2.1.0",
     "marked": "^0.4.0",
+    "morgan": "^1.9.0",
     "mustache": "^2.3.0",
     "mustache-express": "^1.2.7",
     "react": "^16.4.1",
