@@ -3,7 +3,7 @@ procedural generation. We first put pins down where these key landmarks are to b
 these landmarks as: the mountain, the lake, the town, the forest and the clearing.
 
 <figure>
-    <img src="/img/landmarks.svg" alt="Landmark sequence"/>
+    <img src="/procedural-terrain-generation/img/landmarks.svg" alt="Landmark sequence"/>
     <p><strong>Figure 2.</strong> The key landmark sequence for <em>They Arrive</em> gameplay.
 </figure>
 

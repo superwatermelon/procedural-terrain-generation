@@ -17,7 +17,7 @@ map.
 ## Key game areas
 
 <figure>
-    <img alt="Diagram of the play area" src="/img/play-area.svg"/>
+    <img alt="Diagram of the play area" src="/procedural-terrain-generation/img/play-area.svg"/>
     <p>
         <strong>Figure 1.</strong> The key areas of <em>They Arrive</em> with respects to overall gameplay
         and terrain generation.
@@ -53,4 +53,4 @@ the three.
 In the next post we will be looking at how we can place our key landmarks in random locations while
 maintaining the correct game flow.
 
-Next: [Part 2. Landmark Placement](https://blog.superwatermelon.com/procedural-terrain-generation/landmark-placement)
+Next: [Part 2. Landmark Placement](/procedural-terrain-generation/landmark-placement)
