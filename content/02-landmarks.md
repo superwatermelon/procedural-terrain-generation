@@ -31,12 +31,13 @@ points and start again.
 </figure>
 
 The solution gives acceptable results, however, if we were to decide later to add more important landmarks
-the problem space may grow very quickly.
+the problem space will grow very quickly. The algorithms we are using solve in polynomial time so even if
+we simply doubled the number we might find that this solution is no longer workable.
 
 Alternatives could be to instead take the five points as nodes of a complete digraph and expand these
 into all of the edges, there are ten edges for a five node graph. We can then perform a search
-to find the highest scoring combination. We could also place the points iteratively warping the space
-to increase the likelihood of placing the points in valid locations.
+to find a high scoring combination, but not necessarily the highest. We could also place the points
+iteratively warping the space to increase the likelihood of placing the points in valid locations.
 
 In the next post we will explore how to split the map into regions based on these landmarks using a
 technique called Voronoi Tessellation.
