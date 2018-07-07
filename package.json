@@ -10,13 +10,15 @@
   "scripts": {
     "sass": "node-sass --output out/css sass",
     "sass:watch": "node-sass --watch --output out/css sass",
+    "sass:optimized": "node-sass --output-style compressed --output out/css sass",
     "start": "babel-node server.js",
     "test": "mocha --require babel-core/register",
     "test:watch": "mocha --watch --require babel-core/register",
     "webpack": "webpack",
     "webpack:watch": "webpack --watch",
+    "webpack:optimized": "NODE_ENV=production webpack",
     "prepublish": "npm run compile",
-    "compile": "babel lib --out-dir out/app/lib && babel server.js --out-file out/app/server.js && npm run sass && npm run webpack"
+    "compile": "babel lib --out-dir out/app/lib && babel server.js --out-file out/app/server.js && npm run sass:optimized && npm run webpack:optimized"
   },
   "repository": {
     "type": "git",
