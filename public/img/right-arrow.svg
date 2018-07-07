@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
-  <style>
-    .a {
-      fill: #f46;
-    }
-  </style>
-  <g>
-    <rect class="a" x="348.58" y="370.59" width="360" height="80" rx="10" ry="10" transform="translate(612.01 1074.68) rotate(-135)"/>
-    <rect class="a" x="348.58" y="568.58" width="360" height="80" rx="10" ry="10" transform="translate(-275.51 552.01) rotate(-45)"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><style>.a{fill:#f46}</style><rect class="a" x="349" y="371" width="360" height="80" rx="10" ry="10" transform="rotate(-135 529 411)"/><rect class="a" x="349" y="569" width="360" height="80" rx="10" ry="10" transform="rotate(-45 529 609)"/></svg>
