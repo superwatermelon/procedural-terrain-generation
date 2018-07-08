@@ -18,21 +18,21 @@
         <meta property="og:url" content="{{canonical}}"/>
     </head>
     <body>
-        <article>
+        <article vocab="http://schema.org" typeof="BlogPosting">
             <header>
                 <nav>
                     <a class="skip" href="#content">Skip to content</a>
                     <a class="logo" href="https://superwatermelon.com">Superwatermelon</a>
                 </nav>
                 <div id="hero"></div>
-                <div class="header-content">
+                <div class="header-content" name="headline">
                     <div>
                         <h1>{{title}}</h1>
                         <h2>{{subtitle}}</h2>
                     </div>
                 </div>
             </header>
-            <div class="content" id="content">
+            <div class="content" id="content" property="articleBody">
                 {{{content}}}
             </div>
             <footer>
@@ -44,10 +44,10 @@
                         <a href="{{next}}" rel="next">Next</a>
                     {{/next}}
                 </nav>
-                <div class="author">
-                    <img src="https://superwatermelon.com/img/team/sw.jpg" alt="Stuart Wakefield"/>
-                    <h3>Stuart Wakefield</h3>
-                    <h5>Director</h5>
+                <div class="author" property="author" resource="#stuart">
+                    <img property="image" src="https://superwatermelon.com/img/team/sw.jpg" alt="Stuart Wakefield"/>
+                    <h3 property="name">Stuart Wakefield</h3>
+                    <h5 property="jobTitle">Director</h5>
                     {{{bio}}}
                 </div>
             </footer>
