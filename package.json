@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "config": {
     "port": 3000,
-    "sslOnly": false
+    "sslOnly": false,
+    "baseUrl": ""
   },
   "scripts": {
     "sass": "node-sass --output out/css sass",
