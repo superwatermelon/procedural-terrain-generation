@@ -1,6 +1,9 @@
-The game has some key landmarks that have significance to the gameplay, this is where we will start our
-procedural generation. We first put pins down where these key landmarks are to be located. We will define
-these landmarks as: the mountain, the lake, the town, the forest and the clearing.
+In the [last post](/procedural-terrain-generation/) we looked at the overview of the different
+game areas for They Arrive, in this post we are focusing on the playable area and the key
+landmarks. There are five key landmarks that have significance to the gameplay, this is where
+we will start our procedural generation. We first put pins down where these key landmarks are
+to be located. We will define these landmarks as: the mountain, the lake, the town, the forest
+and the clearing.
 
 <figure>
     <img src="/procedural-terrain-generation/img/landmarks.svg" alt="Landmark sequence"/>
