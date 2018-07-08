@@ -16,6 +16,13 @@
         <meta property="og:type" content="article"/>
         <meta property="og:img" content="{{cover}}"/>
         <meta property="og:url" content="{{canonical}}"/>
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{gaTrackingId}}"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', {{gaTrackingId}});
+        </script>
     </head>
     <body>
         <article vocab="http://schema.org" typeof="BlogPosting">
@@ -52,6 +59,6 @@
                 </div>
             </footer>
         </article>
-        <script src="/procedural-terrain-generation/js/index.js" async></script>
+        <script async src="/procedural-terrain-generation/js/index.js"></script>
     </body>
 </html>

@@ -6,7 +6,8 @@
   "config": {
     "port": 3000,
     "sslOnly": false,
-    "baseUrl": ""
+    "baseUrl": "",
+    "gaTrackingId": ""
   },
   "scripts": {
     "sass": "node-sass --output out/css sass",
