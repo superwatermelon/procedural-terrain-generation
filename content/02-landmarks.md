@@ -55,9 +55,9 @@ salesman problem and in graph theory this kind of path is known as the shortest 
 William Rowan Hamilton who invented a puzzle based on creating a path across every point on a dodecahedron.
 
 Unfortunately the constraint that every landmark must appear in the path exactly once rules out Dijkstra's and A*
-search algorithms. Our graph is an undirected (you can travel in both directions between the landmarks) complete
-(every landmark has an edge with every other landmark) graph, which means that we at least know that Hamiltonian
-paths exist but finding the shortest one between two landmarks is non-trivial.
+search algorithms. Our graph is undirected (you can travel in both directions between the landmarks) and complete
+(every landmark has an edge with every other landmark), which means that we at least know that Hamiltonian
+paths exist, it's just that finding the shortest path between two landmarks is non-trivial.
 
 We can brute force the search by trying all permutations, we are already doing so for our other
 variations and so we know the time to compute will be reasonable for the limited number of landmarks we have.
